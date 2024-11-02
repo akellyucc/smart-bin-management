@@ -1,0 +1,70 @@
+.report-page {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.report-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.report-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.report-header p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.section {
+  margin-bottom: 30px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section h3 {
+  color: #333;
+  border-bottom: 2px solid #36A2EB;
+  padding-bottom: 10px;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pie-chart {
+  margin: 20px;
+}
+
+.total-waste {
+  font-size: 1.5rem;
+  color: #36A2EB;
+}
+
+.recommendations {
+  background: #e7f3fe;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.recommendations h2 {
+  color: #333;
+}
+
+.report-footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+}

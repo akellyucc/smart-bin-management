@@ -1,0 +1,58 @@
+.notifications {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.notification-list {
+    display: flex; /* Use flexbox for horizontal stacking */
+    flex-wrap: wrap; /* Allow wrapping to the next line if necessary */
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+}
+
+.notification-list li {
+    margin: 5px; /* Spacing between notifications */
+    padding: 10px;
+    border-radius: 4px;
+    position: relative; /* For positioning the acknowledge button */
+    flex: 0 1 auto; /* Allow items to grow but prevent them from shrinking */
+    cursor: pointer; /* Indicate that the item is clickable */
+}
+
+.alert {
+    display: flex; /* Make alert items flex containers */
+    justify-content: space-between; /* Space between message and button */
+    align-items: center; /* Center items vertically */
+}
+
+.acknowledge-btn {
+    margin-left: 10px; /* Spacing between message and button */
+}
+
+.alert.full {
+    background-color: #f8d7da; /* Color for full */
+    color: #721c24;
+}
+
+.alert.near-full {
+    background-color: #fff3cd; /* Color for near full */
+    color: #856404;
+}
+
+.alert.need-maintenance {
+    background-color: #d4edda; /* Color for maintenance needed */
+    color: #155724;
+}
+
+.alert.healthy {
+    background-color: #d1ecf1; /* Color for healthy */
+    color: #0c5460;
+}
+
+.alert.empty {
+    background-color: #e2e3e5; /* Color for empty */
+    color: #383d41;
+}

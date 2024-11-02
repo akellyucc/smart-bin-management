@@ -1,0 +1,109 @@
+/* General */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+.content{
+  z-index:1;
+  position: relative; /* z-index only works on positioned elements */
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 20px 20px;
+}
+
+.header .branding {
+  font-size: 1.5em;
+}
+
+.header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.header nav ul li {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.user-profile {
+  cursor: pointer;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.metric-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.metric-card .icon {
+  font-size: 2em;
+  margin-right: 10px;
+}
+
+.map-container, .notifications {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+
+}
+
+.map-placeholder {
+  background-color: #e0e0e0;
+  height: 600px;
+
+}
+
+.alert.red {
+  color: red;
+}
+
+.alert.yellow {
+  color: orange;
+}
+
+.alert.green {
+  color: green;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-green {
+  background-color: green;
+  color: white;
+}
+
+.btn-gray {
+  background-color: gray;
+  color: white;
+}
